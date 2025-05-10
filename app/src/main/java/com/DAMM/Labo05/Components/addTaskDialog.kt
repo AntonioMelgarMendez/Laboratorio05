@@ -1,4 +1,4 @@
-package com.DAMM.Labo05.View
+package com.DAMM.Labo05.Components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.AlertDialog

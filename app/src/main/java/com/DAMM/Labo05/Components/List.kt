@@ -1,4 +1,4 @@
-package com.DAMM.Labo05.View
+package com.DAMM.Labo05.Components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -12,10 +12,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.DAMM.Labo05.View.Card
-import com.DAMM.Labo05.Model.Task
+import com.DAMM.Labo05.Data.Model.Task
 
 
 @Composable
@@ -34,7 +32,7 @@ fun List(
         ) {
             Text(
                 text = "No tasks yet. Add one!",
-                style = MaterialTheme.typography.titleMedium,
+                style = typography.titleMedium,
                 color = MaterialTheme.colorScheme.onBackground
             )
         }

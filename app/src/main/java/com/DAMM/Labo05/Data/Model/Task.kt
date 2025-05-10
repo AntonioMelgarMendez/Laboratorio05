@@ -1,4 +1,4 @@
-package com.DAMM.Labo05.Model
+package com.DAMM.Labo05.Data.Model
 
 import java.util.Date
 
